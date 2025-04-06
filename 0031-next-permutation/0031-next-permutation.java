@@ -11,7 +11,7 @@ class Solution {
         if(minIdx<0){
             int x = 0;
             int y = nums.length-1;
-            swap(nums,x,y);
+            reverse(nums,x,y);
             return;   
         }
 
@@ -26,19 +26,23 @@ class Solution {
         }
             int x = minIdx+1;
             int y = nums.length-1;
-            swap(nums,x,y);
+            reverse(nums,x,y);
 
 
         
     }
 
-    public void swap(int[] nums, int x , int y){
+    public void reverse(int[] nums, int x , int y){
         while(x<y){
-                int temp = nums[x];
-                nums[x] = nums[y];
-                nums[y] = temp;
+               swap(nums,x,y);
                 x++;
                 y--;
             }
+    }
+
+    public void swap(int[] nums, int x , int y){
+        int temp = nums[x];
+         nums[x] = nums[y];
+        nums[y] = temp;
     }
 }
