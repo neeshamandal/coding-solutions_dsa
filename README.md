@@ -5,12 +5,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/neeshamandal/coding-solutions_dsa/tree/master/0009-palindrome-number) |
+| [0189-rotate-array](https://github.com/neeshamandal/coding-solutions_dsa/tree/master/0189-rotate-array) |
 | [1013-fibonacci-number](https://github.com/neeshamandal/coding-solutions_dsa/tree/master/1013-fibonacci-number) |
 ## Two Pointers
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/neeshamandal/coding-solutions_dsa/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0125-valid-palindrome](https://github.com/neeshamandal/coding-solutions_dsa/tree/master/0125-valid-palindrome) |
+| [0189-rotate-array](https://github.com/neeshamandal/coding-solutions_dsa/tree/master/0189-rotate-array) |
 ## String
 |  |
 | ------- |
@@ -31,5 +33,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/neeshamandal/coding-solutions_dsa/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0189-rotate-array](https://github.com/neeshamandal/coding-solutions_dsa/tree/master/0189-rotate-array) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/neeshamandal/coding-solutions_dsa/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 <!---LeetCode Topics End-->
