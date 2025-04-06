@@ -1,0 +1,44 @@
+class Solution {
+    public void nextPermutation(int[] nums) {
+        int minIdx = -1;
+        for(int i = nums.length-1; i>0;i--){
+            if(nums[i]>nums[i-1]){
+                minIdx = i-1;
+                break;
+            }
+        }
+
+        if(minIdx<0){
+            int x = 0;
+            int y = nums.length-1;
+            swap(nums,x,y);
+            return;   
+        }
+
+        for(int i = nums.length-1; i>minIdx;i--){
+            if(nums[i]>nums[minIdx]){
+                int temp = nums[i];
+                nums[i] = nums[minIdx];
+                nums[minIdx] = temp;
+                break;
+            }
+
+        }
+            int x = minIdx+1;
+            int y = nums.length-1;
+            swap(nums,x,y);
+
+
+        
+    }
+
+    public void swap(int[] nums, int x , int y){
+        while(x<y){
+                int temp = nums[x];
+                nums[x] = nums[y];
+                nums[y] = temp;
+                x++;
+                y--;
+            }
+    }
+}
