@@ -17,9 +17,7 @@ class Solution {
 
         for(int i = nums.length-1; i>minIdx;i--){
             if(nums[i]>nums[minIdx]){
-                int temp = nums[i];
-                nums[i] = nums[minIdx];
-                nums[minIdx] = temp;
+                swap(nums,i,minIdx);
                 break;
             }
 
