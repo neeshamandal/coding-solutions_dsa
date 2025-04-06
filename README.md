@@ -5,4 +5,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/neeshamandal/coding-solutions_dsa/tree/master/0009-palindrome-number) |
+## Two Pointers
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/neeshamandal/coding-solutions_dsa/tree/master/0125-valid-palindrome) |
+## String
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/neeshamandal/coding-solutions_dsa/tree/master/0125-valid-palindrome) |
 <!---LeetCode Topics End-->
