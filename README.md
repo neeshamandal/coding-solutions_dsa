@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/neeshamandal/coding-solutions_dsa/tree/master/0125-valid-palindrome) |
+| [1078-remove-outermost-parentheses](https://github.com/neeshamandal/coding-solutions_dsa/tree/master/1078-remove-outermost-parentheses) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -91,4 +92,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2271-rearrange-array-elements-by-sign](https://github.com/neeshamandal/coding-solutions_dsa/tree/master/2271-rearrange-array-elements-by-sign) |
+## Stack
+|  |
+| ------- |
+| [1078-remove-outermost-parentheses](https://github.com/neeshamandal/coding-solutions_dsa/tree/master/1078-remove-outermost-parentheses) |
 <!---LeetCode Topics End-->
