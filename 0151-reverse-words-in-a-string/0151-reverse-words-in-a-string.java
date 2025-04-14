@@ -1,29 +1,36 @@
 class Solution {
     public String reverseWords(String s) {
+        String temp = "";
         String ans = "";
-        String str = "";
-        Stack<String> stack = new Stack();
+        int left = 0;
+        int right = s.length()-1;
 
-        for(int i = 0; i<s.length();i++){
-            if(s.charAt(i)==' '){
-                if(!str.isEmpty()){
-                    stack.push(str);
-                str = "";
+        while(left<=right){
+            if(s.charAt(left)!=' '){
+                if(temp != " ")
+                    temp+= s.charAt(left);       
+            }else{
+                if(!temp.isEmpty()){
+                    if(!ans.isEmpty()){
+                    ans = temp + " "  + ans;
+                }else{
+                    ans = temp;
+                }
                 }
                 
-            }else{
-                    str+= s.charAt(i);
+                temp = "";
             }
-        }
-        if(!str.isEmpty()){
-            stack.push(str);
+            left++;
         }
 
-        while(stack.size()!=1){
-            ans+= stack.peek() + " ";
-            stack.pop();
+        if(!temp.isEmpty()){
+            if(!ans.isEmpty()){
+                 ans = temp + " " + ans;
+            }else{
+                ans = temp;
+            }
+           
         }
-        ans+= stack.peek();
 
         return ans;
     }
